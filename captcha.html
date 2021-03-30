@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // function sendResponse() {
+      //   fetch("/", {
+      //     method: "POST",
+      //     body: { token: `${window.grecaptcha.getResponse()}` },
+      //   }).then(res => {
+      //     console.log("Request complete! response:", res)
+      //   })
+      // }
+      // let control = window.open(
+      //   "https://online.nzta.govt.nz/licence-test/identification",
+      //   "controller"
+      // )
+      console.log(control.window)
+    </script>
+    <form action="?" method="POST">
+      <div
+        class="g-recaptcha"
+        data-sitekey="6Lc9fF0UAAAAAP410Z3UrJp0dIwq3JMtYtBCuYlf"
+      ></div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -23,12 +23,16 @@ yarn
 ```properties
 #.env
 # required
-API_FETCH="[api route]"
 LICENCE_CODE=""
 LICENCE_VERSION=""
 LAST_NAME=""
 # format dd-mm-yyyy eg.. 01-01-2001
 DOB=""
+#licence class is on the back of your licence
+LICENCE_CLASS="1R"
+SITE_ID=""
+DATE_FROM=""
+DATE_TO=""
 # not required
 API_REFER="[api referrer]",
 SG_KEY = ""

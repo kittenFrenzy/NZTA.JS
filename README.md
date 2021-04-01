@@ -30,7 +30,9 @@ LAST_NAME=""
 DOB=""
 #licence class is on the back of your licence
 LICENCE_CLASS="1R"
+#test site id
 SITE_ID=""
+#format dd/mm/yyyy
 DATE_FROM=""
 DATE_TO=""
 # not required

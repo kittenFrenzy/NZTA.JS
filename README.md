@@ -67,5 +67,5 @@ node find.js
 >>> http://127.0.0.1:6677
 ```
 
-open browser and visit gen.nzta.govt.nz:6677
+open browser and visit gen.nzta.govt.nz:6677, complete the capthca and the program will log you in with the set credentials,
 check console for request successful message

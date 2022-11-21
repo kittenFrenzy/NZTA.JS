@@ -7,7 +7,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.4.2",
     "dotenv": "^8.2.0",
-    "fastify": "^3.14.1",
+    "fastify": "^3.29.4",
     "node-fetch": "^2.6.1",
     "twilio": "^3.59.0"
   }
